@@ -76,7 +76,14 @@ int buildOptionMenu(int n, char* options[]) {
     putStrAlign(lineCount, str, LEFT);
     lineCount++;
   }
-  while(getch() - '0' >= 1 && getch() - '0' <= n) {}
+  i = 1;
+  pressed = 0;
+  do {
+    Sleep(SLEEPCONST);
+    pressed = getKey(VK_0 + i);
+    if(!pressed)
+      i = (i + 1) % 9 + 1;
+  } while(!pressed);
   return i;
 }
 
