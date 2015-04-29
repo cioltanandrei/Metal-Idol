@@ -1,6 +1,8 @@
 # Metal Idol
 ## Because console rocks
 
+[![Join the chat at https://gitter.im/cioltanandrei/Metal-Idol](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cioltanandrei/Metal-Idol?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 `Metal Idol` este pur si simplu o clona de Guitar Hero, cu grafica in mod text. Momentan functioneaza doar pe Windows.
 
 ### Compilare
